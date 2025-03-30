@@ -1,4 +1,4 @@
-Dokumentacja kodu - Problem filozofów
+Dokumentacja kodu - Problem filozofów (PLIK WYGLĄDA LEPIEJ W TRYBIE CODE)
 Opis ogólny
 Kod implementuje klasyczny problem „pięciu” filozofów, który ilustruje problemy synchronizacji w programowaniu wielowątkowym. W tym przypadku „n” filozofów siedzi przy stole i na przemian myśli i je. Aby zjeść, każdy filozof potrzebuje dwóch widelców, które są dzielone z sąsiadami. Kod wykorzystuje wątki oraz mechanizmy synchronizacji, takie jak mutexy i zmienne warunkowe, aby zapewnić, że filozofowie nie będą jednocześnie próbowali jeść. Jeżeli jakiś filozof przez długi okres nic nie jadł program kończy się z komentarzem niepowodzenia.
 Struktura kodu
